@@ -1,0 +1,77 @@
+html {
+    background-color:whitesmoke
+}
+h1 {
+    height:40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color:pink;
+    font-family: 'Parisienne', cursive;
+    font-size: 8vw;
+}
+    
+main {
+    justify-content: center;
+    align-items: center;
+    color: rgb(112, 111, 111);
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+}
+
+h2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(112, 111, 111);
+    font-family: 'Quattrocento', serif;
+    font-size: 35px
+}
+
+h6 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: rgb(112, 111, 111);
+    font-family: 'Quattrocento', serif;
+    font-size: 25px
+}
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 25.00%;
+    padding: 10px;
+  }
+
+body {
+    font-family: 'Quattrocento', serif;
+    color:rgb(112, 111, 111)
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:pink;
+  }
+  
+li {
+    float: left;
+  }
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Quattrocento', serif;
+  }
+  
+li a:hover {
+    background-color: #111;
+  }
